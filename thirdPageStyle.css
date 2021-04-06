@@ -1,0 +1,22 @@
+html,
+body {
+	background-color: #523c73;
+}
+.mainDiv {
+	display: flex;
+}
+.dataForm {
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	font-size: 24px;
+	color: #d4d122;
+	margin-top: 100px;
+	margin-left: 20px;
+	border: solid 2px;
+	padding: 5px;
+}
+.formInputs {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
