@@ -33,7 +33,7 @@ $sql = "INSERT INTO daily_input (reporter, winner, date_input, games_won ,games_
 VALUES ('$reporter', '$winner', '$date', '$gamesWon' , '$gamesLost', '$mode', '$veto')";
 
 if (mysqli_query($conn, $sql)) {
-echo "Data sent successfully";
+    window.location.href = "return.html";
 } else {
 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
