@@ -12,36 +12,36 @@
 		<div class="container">
 			<form action="final.php" method="post" class="data-form">
 				<label for="reporter">Reporter</label>
-				<select type="text" list="list1" id="reporter" placeholder="Choose" name="reporter">
+				<select type="text" list="list1" id="reporter" placeholder="Choose" name="reporter" required>
 						<option value="Tasneem">Tasneem</option>
 						<option value="Saif">Saif</option>
 							
 						</select>			
 				<label for="winner">Winner</label>
-				<select type="text" name="winner" list="list2" id="winner" placeholder="Choose">
+				<select type="text" name="winner" list="list2" id="winner" placeholder="Choose" required>
 						<option value="Tasneem">Tasneem</option>
 						<option value="Saif">Saif</option>
 				</select>
 
 				<label for="date">Date</label>
-				<input type="Date" name="date" id="date" placeholder="Date">
+				<input type="Date" name="date" id="date" placeholder="Date" required>
 
 				<label for="gamesWon">Games Won</label>
-				<input type="number" name="gamesWon" placeholder="How Many" id="gamesWon">
+				<input type="number" name="gamesWon" placeholder="How Many" id="gamesWon" required>
 
 				<label for="gamesLost">Games Lost</label>
-				<input type="number" name="gamesLost" placeholder="How Many" id="gamesLost">
+				<input type="number" name="gamesLost" placeholder="How Many" id="gamesLost" required>
 
 				<label for="mode">Mode</label>
-				<select type="text" name="mode" list="list3" id="mode" placeholder="Choose">
+				<select type="text" name="mode" list="list3" id="mode" placeholder="Choose" required>
 						<option value="Multiplayer">Multiplayer</option>
 						<option value="Battle Royale">Battle Royale</option>
 				</select>
 
 				<label for="veto">VETO</label>
-				<input type="number" name="veto" placeholder="How Many" id="veto">
+				<input type="number" name="veto" placeholder="How Many" id="veto" required>
 
-				<button type="submit" name="submit" class="formInputs">Submit</button>
+				<button type="submit" name="submit" class="formInputs">Fire</button>
 			</form>
 		</div>
 	</main>
