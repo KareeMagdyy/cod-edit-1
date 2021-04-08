@@ -15,14 +15,12 @@
 				<select type="text" list="list1" id="reporter" placeholder="Choose" name="reporter" required>
 						<option value="Tasneem">Tasneem</option>
 						<option value="Saif">Saif</option>
-							
-						</select>			
+				</select>			
 				<label for="winner">Winner</label>
 				<select type="text" name="winner" list="list2" id="winner" placeholder="Choose" required>
 						<option value="Tasneem">Tasneem</option>
 						<option value="Saif">Saif</option>
 				</select>
-
 				<label for="date">Date</label>
 				<input type="Date" name="date" id="date" placeholder="Date" required>
 
@@ -37,10 +35,8 @@
 						<option value="Multiplayer">Multiplayer</option>
 						<option value="Battle Royale">Battle Royale</option>
 				</select>
-
 				<label for="veto">VETO</label>
 				<input type="number" name="veto" placeholder="How Many" id="veto" required>
-
 				<button type="submit" name="submit" class="formInputs">Fire</button>
 			</form>
 		</div>
