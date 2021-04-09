@@ -19,8 +19,8 @@ $veto = $_POST["veto"];
 
 $servername = "localhost";
 $username = "root";
-$password = "LeomanPassword@@22";
-$dbname = "cod";
+$password = "";
+$dbname = "cod-test";
 
 //
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -29,7 +29,7 @@ if (!$conn) {
 die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO daily_input (reporter, winner, date_input, games_won ,games_lost, mode, veto)
+$sql = "INSERT INTO submission (reporter, winner, date_input, games_won ,games_lost, mode, veto)
 VALUES ('$reporter', '$winner', '$date', '$gamesWon' , '$gamesLost', '$mode', '$veto')";
 
 if (mysqli_query($conn, $sql)) {
